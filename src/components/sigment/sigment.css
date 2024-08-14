@@ -1,0 +1,20 @@
+#sigmentdiv{
+    height: 20px;
+    width: 230px;
+    display: flex;
+color: white;
+gap: 10px;
+font-size: 14px;
+justify-content: center;
+}
+.darksigmentpart{
+    color:white
+}
+.lightsigmentpart{
+    color: black;
+}
+@media screen and (max-width: 500px){
+    #sigmentdiv{
+        font-size: 12px;
+    }
+}

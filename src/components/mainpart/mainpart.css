@@ -1,0 +1,111 @@
+#maincontainer{
+    height: 75%;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.topdiv{
+    height: 30%;
+    width: 100%;
+display: flex;
+justify-content: start;
+align-items:center;
+padding-top: 30px;
+box-sizing: border-box;
+gap: 35px;
+padding-left: 20px;
+padding-top: 20px;
+color: white;
+margin-bottom: 40px;
+}
+#bitmap{
+    height: 115px;
+    width: 115px;
+}
+h2{
+    margin: 0;
+}
+#firstlabel{
+    color: #0079ff;
+}
+#secondlabel{
+    font-size: 12px;
+}
+#paragraph{
+    width: 90%;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#likes{
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+    align-items: center;
+    font-size: 14px;
+}
+#like{
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+    align-items: center;
+    font-size: 14px;
+}
+#bottomdiv{
+    height: 70px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left:35px;
+}
+.darkbottom{
+    background-color: #141d2f;
+}
+.lightbottom{
+    background-color: #f6f8ff;
+}
+.sigmentmain{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.darkhead{
+    color:white
+}
+.lighthead{
+    color: black;
+}
+.darkcontainer{
+    background-color: #1e2a47;
+}
+.lightcontainer{
+    background-color: white;
+}
+@media screen and (max-width: 500px){
+    .sigmentmain{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+        height: 70px;
+    }
+    #maincontainer{
+        height: 80%;
+        padding: 0;
+    }
+    #bitmap{
+        height: 70px;
+        width: 70px;
+    }
+    .topdiv{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    #paragraph{
+        margin: 10px;
+        margin-left: 30px;
+        font-size: 11px;
+    }
+}

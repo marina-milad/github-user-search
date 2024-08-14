@@ -1,0 +1,21 @@
+main{
+    height: 85%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+}
+
+.darkmain{
+    background-color: #141d2f;
+}
+.lightmain{
+    background-color: #f6f8ff;
+}
+
+ @media screen and (max-width: 500px){
+    main{
+      width: 90%;
+      height: 99%;
+    }
+  }
